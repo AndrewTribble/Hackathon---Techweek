@@ -1,0 +1,40 @@
+The Affdex SDK for Android contains, depends on, or derives from the following
+3rd party software:
+
+Flurry Analytics for Android, v4.1.0
+====================================
+See http://www.flurry.com for more information, including applicable terms of
+use and privacy policy.
+
+The Android Compatibility Test Suite (CTS)
+==========================================
+This software contains code derived from the Android Compatibility
+Test Suite.  See https://source.android.com/compatibility/cts-intro.html
+for more information. CTS is licensed under the Apache License v2.0; see
+LICENSE-APACHE.TXT.
+
+Boost 1.55.0
+============
+See http://www.boost.org/ for more information.
+See LICENSE-BOOST.txt for its license.
+
+OpenCV 2.4.8
+============
+See http://opencv.org for more information.
+See LICENSE-OPENCV.txt for its license.
+
+haar cascade classifier files for OpenCV
+========================================
+Created by Rainer Lienhart.
+See LICENSE-INTEL.txt for its license.
+
+dagger v1.2.2
+=============
+See http://square.github.io/dagger/ for more information.
+See LICENSE-APACHE.TXT for its license.
+
+javax.inject
+============
+See http://docs.oracle.com/javaee/6/api/javax/inject/Inject.html for more
+information.
+See LICENSE-APACHE.TXT for its license.

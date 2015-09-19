@@ -1,0 +1,42 @@
+Quick Start guide to the Affdex SDK for Android
+
+Overview
+========
+The Affdex SDK for Android package consists of the following:
+-	Android SDK Developer Guide.pdf
+-	QuickStart.txt (this document)
+-	docs, the folder containing the above documentation on the SDK, and other
+    documentation.
+-	libs, the folder containing the library files to put into your Android 
+    project
+-	assets, a folder to be added to your Android project, needed by the SDK
+
+Demo app
+========
+Affectiva provides a demonstration Android app that uses the SDK, so that you
+may see an example of how the integration works.  The package for this app
+includes a readme file describing how to build an app with the SDK. Find this
+demo app at https://github.com/Affectiva/affdexme-android
+
+Build instructions
+==================
+In order to use this SDK in one of your Android apps, you will need to copy
+some files from the SDK into your Android project. In your Android project,
+alongside your src and res folders, you may have the optional folders assets
+and libs. If you do not have an assets folder in your project, copy the SDK's
+assets folder into your project. If you do have an assets folder, copy the
+contents of the SDK's assets folder into your assets folder. In a similar way,
+copy the SDK's libs folder into your project. 
+
+Copy your Affectiva license file into your project here: <your app>/assets/Affdex
+
+In your code, you will need to implement the Detector.ImageListener interface,
+construct a Detector, and enable detection of one or more expressions. See
+the documentation for more details, and the demo app for an example.
+
+How to reach us
+===============
+We're excited to help you get the most of our SDK in your application. Please
+use the following ways to contact us with questions, comments, or suggestions.
+Email: sdk@affectiva.com
+Web: www.affdex.com/mobile-sdk
